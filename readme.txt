@@ -65,7 +65,7 @@ Geometric blur was implemented by the original description by Berg. This impleme
 ====================
 Scene Gist
 ====================
-The implementation by Torralba was used. It is available at http://people.csail.mit.edu/torralba/code/spatialenvelope/. From the output of gistGabor(), this program normalizes the vector to sum to one. Then, for each image KL divergence is used to compute a distance between images.
+The implementation by Torralba was used (Oliva 2001). It is available at http://people.csail.mit.edu/torralba/code/spatialenvelope/. From the output of gistGabor(), this program normalizes the vector to sum to one. Then, for each image KL divergence is used to compute a distance between images.
 
 ====================
 Shock Graph
