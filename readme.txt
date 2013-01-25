@@ -90,6 +90,8 @@ Berg, Malik. Geometric Blur for Template Matching.  CVPR 2001.
 
 Berg. Shape Matching and Object Recognition.  2005.
 
+Oliva, Torralba. Modeling the Shape of the Scene: a Holistic Representation of the Spatial Envelope. International Journal in Computer Vision 2001.
+
 Kimia et al. Shapes, shocks, and deformations i: the components of two-dimensional shape and the reaction-diffusion space. International Journal of Computer Vision 1995.
 
 Kay et al. Identifying natural images from human brain activity.  Nature 2008.
