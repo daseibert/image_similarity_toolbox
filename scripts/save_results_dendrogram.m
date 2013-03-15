@@ -82,4 +82,4 @@ for(i=1:n_imgs) % show the thumbnails. based on their IDs in 'perm', returned by
 end
 fclose(handle);
 fprintf('Dendrogram saved: %s\n',file_name);
-close(figure(1)); % close the dendrogram
+%close(figure(1)); % close the dendrogram

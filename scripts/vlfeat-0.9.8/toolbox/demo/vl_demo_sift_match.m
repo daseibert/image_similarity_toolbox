@@ -9,7 +9,7 @@ figure(1) ; clf ;
 %                                                    Create image pair
 % --------------------------------------------------------------------
 
-Ia = imread('48.jpg') ;
+Ia = imread(fullfile(vl_root,'data','a.jpg')) ;
 
 th = pi/4 ;
 sc = 4 ;
@@ -23,8 +23,7 @@ Ib = imtransform(Ia,tform,'size',size(Ia), ...
                  'xdata', [1 size(Ia,2)], ...
                  'ydata', [1 size(Ia,1)], ...
                  'fill', 255);
-Ib = imread('37.jpg');
-Ia = imresize(Ia, [281,197]);
+
 % --------------------------------------------------------------------
 %                                           Extract features and match
 % --------------------------------------------------------------------
